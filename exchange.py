@@ -35,7 +35,7 @@ def exchange(token,cookies1,i,cf):
 if __name__ == "__main__":
     cf = configparser.ConfigParser()
     cf.read("config.ini",encoding='UTF-8')
-1
+
     option = webdriver.ChromeOptions()
     option.add_experimental_option('excludeSwitches', ['enable-automation'])
     browser = webdriver.Chrome(options=option)
