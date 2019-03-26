@@ -59,3 +59,5 @@ if __name__ == "__main__":
         robj = pool.apply_async(exchange,(token,cookies1,i,cf,))
     pool.close()
     pool.join()
+
+    print(1)
